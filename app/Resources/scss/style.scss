@@ -1,2 +1,50 @@
 $icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/";
 @import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+html, body {
+  margin: 10px;
+  font-size: 20px;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+.btn {
+    margin-left: 5px;
+}
+
+.row {
+    margin-top: 5px;
+}
+
+.toggle {
+    display: none;
+}
+
+.toggle ~ form {
+    position: relative;
+    left: 300px;
+    transition: left 500ms cubic-bezier(0.17, 0.04, 0.03, 0.94);
+}
+
+.toggle:checked ~ form {
+    left: 0;
+}
+
+.margin-bottom-5 {
+    margin-bottom: 5px;
+}
+
+.alert{
+    padding: 5px;
+    margin: 10px 0;
+}
+
+.list-group-item {
+    background-color: #fafafa;
+}
+.list-group-item:hover {
+    background-color: #fff;
+}

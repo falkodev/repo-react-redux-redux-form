@@ -1,4 +1,4 @@
-Tutoriel Symfony / React / Webpack / Babel
+Tutoriel React / Redux / Redux-Form
 ======
 
-Sources pour le tutoriel Symfony / React / Webpack / Babel : https://falkodev.gitbooks.io/tuto-symfony-react-webpack-babel/content/
+Sources pour le tutoriel Tutoriel React / Redux / Redux-Form : https://falkodev.gitbooks.io/tutoriel-react-redux-redux-form/content/

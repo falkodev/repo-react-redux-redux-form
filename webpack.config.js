@@ -38,6 +38,7 @@ var config = {
                 loader: "file?name=[name].[ext]"
             }
         ]
-    }
+    },
+    devtool: 'source-map'
 };
 module.exports = config;
